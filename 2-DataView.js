@@ -22,7 +22,7 @@ console.dir({
     uint8view1: view1.getUint8(20),
 
     int32view1BE: view1.getInt32(5),      // big-endian
-    int32view1LE: view1.getInt32(5,true), //little-endian
+    int32view1LE: view1.getInt32(5,true), // little-endian
 
     int32view1BEhex: view1.getInt32(5).toString(16),       // 3C 41 46 4B
     int32view1LEhex: view1.getInt32(5, true).toString(16), // 4B 46 41 3C
